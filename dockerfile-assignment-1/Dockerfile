@@ -14,6 +14,6 @@ RUN npm cache clean --force
 
 COPY . .
 
-EXPOSE 80
+EXPOSE 3000
 
 CMD ["/sbin/tini", "--", "node", "./bin/www"]
